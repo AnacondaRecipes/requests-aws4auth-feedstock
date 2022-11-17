@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=3.6
     - requests
+    - six
 
 test:
   imports:
@@ -41,3 +42,8 @@ extra:
     - oblute
     - benhuff
     - mwilson8
+  anaconda:
+    reason: Top 5000 package
+  only_lint:
+    - missing_source
+      
