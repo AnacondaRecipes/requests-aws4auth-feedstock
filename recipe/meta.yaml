@@ -41,3 +41,8 @@ extra:
     - oblute
     - benhuff
     - mwilson8
+  anaconda:
+    reason: Top 5000 package
+  only_lint:
+    - missing_source
+      
